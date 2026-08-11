@@ -1,58 +1,180 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Alileh Abadia | Professional Portfolio</title>
-<meta name="description" content="Professional portfolio of Alileh Abadia, Davao Region, Philippines.">
-<style>
-:root{--navy:#17365d;--blue:#2f75b5;--light:#f4f7fb;--text:#222;--muted:#5b6573}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6}
-header{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;text-align:center;padding:70px 20px}
-.wrap{max-width:1000px;margin:auto;padding:0 22px}h1{font-size:44px;margin:0 0 8px}header p{font-size:18px;margin:5px}
-.buttons{margin-top:25px}.btn{display:inline-block;padding:11px 18px;margin:5px;border-radius:6px;text-decoration:none;font-weight:bold;background:#fff;color:var(--navy)}.btn.alt{background:transparent;color:#fff;border:1px solid #fff}
-section{padding:45px 0;border-bottom:1px solid #e5e9ef}h2{color:var(--navy);font-size:26px;margin-top:0}.summary{font-size:17px;color:#3f4650}
-.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{background:var(--light);border:1px solid #dbe4ef;border-radius:20px;padding:7px 13px;color:var(--navy);font-weight:600}
-.card{border-left:4px solid var(--blue);padding:17px 20px;margin:17px 0;box-shadow:0 4px 15px rgba(23,54,93,.08)}.card h3{margin:0;color:var(--navy);font-size:18px}.date{color:var(--muted);font-size:14px;margin:3px 0 10px}
-.contact{background:var(--light)}footer{text-align:center;padding:24px;color:var(--muted);font-size:14px}a{color:var(--blue)}
-@media(max-width:600px){h1{font-size:34px}header{padding:50px 15px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alileh Abadia | Customer Service & Credit Collections Professional</title>
+  <meta name="description" content="Professional portfolio of Alileh Abadia, a Davao Region-based customer service, credit collections, billing, sales, technical support and virtual assistance professional.">
+  <meta name="keywords" content="Alileh Abadia, Davao BPO, customer service, credit collections, accounts receivable, billing, sales support, technical support, virtual assistant">
+  <meta name="author" content="Alileh Abadia">
+  <meta property="og:title" content="Alileh Abadia | Professional Portfolio">
+  <meta property="og:description" content="Customer Service, Credit Collections, Billing, Sales, Technical Support and Virtual Assistance professional based in Davao Region, Philippines.">
+  <meta name="theme-color" content="#123b5d">
+  <style>
+    :root{
+      --navy:#123b5d;
+      --navy-2:#0b2940;
+      --teal:#0f766e;
+      --sky:#eaf5f7;
+      --ink:#17212b;
+      --muted:#5d6b78;
+      --line:#dce5ea;
+      --paper:#ffffff;
+      --bg:#f5f8fa;
+      --shadow:0 14px 40px rgba(18,59,93,.10);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+    a{color:inherit}
+    .container{width:min(1080px,92%);margin:auto}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:800;letter-spacing:.04em;color:var(--navy);text-decoration:none}
+    .navlinks{display:flex;gap:22px;font-size:14px;font-weight:700;color:var(--muted)}
+    .navlinks a{text-decoration:none}
+    .navlinks a:hover{color:var(--teal)}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy-2),var(--navy) 60%,#176b72);color:#fff;padding:82px 0 76px}
+    .hero:before,.hero:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.13)}
+    .hero:before{width:360px;height:360px;right:-150px;top:-170px}.hero:after{width:250px;height:250px;left:-140px;bottom:-150px}
+    .hero-grid{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+    h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin:18px 0 12px;letter-spacing:-.04em}
+    .hero h2{font-size:clamp(19px,2.5vw,26px);line-height:1.35;margin:0;color:#dceff2;font-weight:650}
+    .hero-copy{max-width:700px;color:#e8f3f5;font-size:17px;margin:22px 0 0}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 18px;border-radius:10px;text-decoration:none;font-weight:800;border:1px solid transparent}
+    .btn-primary{background:#fff;color:var(--navy)}
+    .btn-secondary{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+    .btn-teal{background:var(--teal);color:#fff}
+    .hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:25px;box-shadow:0 18px 50px rgba(0,0,0,.12)}
+    .hero-card h3{margin:0 0 16px;font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:#cbe8eb}
+    .quick{display:grid;gap:13px}.quick div{display:flex;justify-content:space-between;gap:15px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.14)}.quick div:last-child{border-bottom:0;padding-bottom:0}.quick span:first-child{color:#b9d3d8}.quick span:last-child{text-align:right;font-weight:750}
+    section{padding:70px 0}
+    .section-head{max-width:760px;margin-bottom:30px}.kicker{color:var(--teal);font-size:13px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.section-head h2{font-size:34px;line-height:1.2;margin:7px 0 10px;color:var(--navy)}.section-head p{margin:0;color:var(--muted)}
+    .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+    .panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+    .panel h3{margin-top:0;color:var(--navy)}
+    .checklist{list-style:none;margin:0;padding:0;display:grid;gap:13px}.checklist li{display:flex;gap:10px}.checklist li:before{content:"✓";display:grid;place-items:center;width:22px;height:22px;flex:0 0 22px;margin-top:2px;border-radius:50%;background:var(--sky);color:var(--teal);font-weight:900}
+    .skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:9px 13px;background:#fff;border:1px solid var(--line);border-radius:999px;color:var(--navy);font-weight:750;font-size:14px}
+    .experience{display:grid;gap:18px}.job{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px;box-shadow:0 8px 24px rgba(18,59,93,.06)}.job:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(var(--teal),#3a8aa0);border-radius:18px 0 0 18px}.job-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.job h3{margin:0;color:var(--navy);font-size:20px}.company{margin:4px 0;color:var(--teal);font-weight:800}.date{white-space:nowrap;background:var(--sky);color:var(--navy);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}.job ul{margin:16px 0 0;padding-left:20px}.job li{margin:7px 0;color:#3e4b56}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}.mini-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px}.mini-card h3{margin:0 0 6px;color:var(--navy)}.mini-card p{margin:0;color:var(--muted)}
+    .cta{background:linear-gradient(135deg,#eaf5f7,#f7fbfb);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.contact-list{display:grid;gap:12px}.contact-item{display:flex;gap:12px;align-items:flex-start;padding:15px 0;border-bottom:1px solid var(--line)}.contact-item:last-child{border-bottom:0}.contact-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--teal)}.contact-value{font-weight:750;color:var(--navy);word-break:break-word}
+    footer{padding:30px 0;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:800px){.hero-grid,.about-grid,.contact-grid,.two-col{grid-template-columns:1fr}.navlinks{display:none}.hero{padding:62px 0}.hero-card{max-width:620px}.job-top{flex-direction:column}.date{white-space:normal}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{.topbar,.actions{display:none}.hero{background:#fff;color:#000;padding:25px 0}.hero h2,.hero-copy{color:#000}.hero-card{border:1px solid #ccc;color:#000}.hero:before,.hero:after{display:none}section{padding:30px 0;break-inside:avoid}.panel,.job,.mini-card{box-shadow:none}}
+  </style>
 </head>
 <body>
-<header><div class="wrap">
-<h1>ALILEH ABADIA</h1>
-<p>Customer Service • Credit Collections • Billing • Sales • Technical Support</p>
-<p>Davao Region, Philippines</p>
-<div class="buttons">
-<a class="btn" href="#contact">Contact Me</a>
-<a class="btn alt" href="Alileh_Abadia_ATS_Ready_Resume.pdf" download>Download Resume</a>
-<a class="btn alt" href="https://www.linkedin.com/in/aalileh" target="_blank">LinkedIn</a>
-</div></div></header>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#top">ALILEH ABADIA</a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<section><div class="wrap"><h2>Professional Summary</h2>
-<p class="summary">Versatile and customer-focused professional with experience in credit collections, accounts receivable, customer service, billing, sales, technical support, office administration, HR support, finance, and virtual assistance. Skilled in inbound and outbound communication, email support, payment follow-up, account reconciliation, dispute resolution, record management, and administrative support. Known for strong communication, problem-solving, negotiation, and organizational skills.</p></div></section>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Open to new opportunities</span>
+          <h1>ALILEH ABADIA</h1>
+          <h2>Customer Service • Credit Collections • Billing • Sales • Technical Support • Virtual Assistance</h2>
+          <p class="hero-copy">Versatile, customer-focused professional based in Davao Region, Philippines, with experience supporting customers, accounts receivable, billing, collections, sales, technical concerns, administration, HR, finance, and virtual assistance.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="Alileh_Abadia_ATS_Ready_Resume.pdf" download>Download Resume</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/aalileh" target="_blank" rel="noopener">View LinkedIn</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Professional snapshot">
+          <h3>Professional Snapshot</h3>
+          <div class="quick">
+            <div><span>Location</span><span>Davao Region, Philippines</span></div>
+            <div><span>Focus</span><span>Customer & Account Support</span></div>
+            <div><span>Strengths</span><span>Communication & Problem Solving</span></div>
+            <div><span>Work Style</span><span>Organized • Service-Focused</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<section><div class="wrap"><h2>Core Skills</h2><div class="skills">
-<span class="skill">Credit Collections</span><span class="skill">Accounts Receivable</span><span class="skill">Account Reconciliation</span><span class="skill">Payment Negotiation</span><span class="skill">Customer Service</span><span class="skill">Billing Support</span><span class="skill">Technical Support</span><span class="skill">Troubleshooting</span><span class="skill">Sales Support</span><span class="skill">Inbound & Outbound Calls</span><span class="skill">Email Communication</span><span class="skill">Administrative Support</span><span class="skill">HR Support</span><span class="skill">Data Entry</span><span class="skill">Record Management</span><span class="skill">Microsoft Office</span><span class="skill">Microsoft Excel</span><span class="skill">Virtual Assistance</span><span class="skill">Lead Generation</span><span class="skill">Problem Solving</span>
-</div></div></section>
+    <section id="about">
+      <div class="container">
+        <div class="section-head"><span class="kicker">About</span><h2>A dependable professional for customer-facing and business support roles.</h2><p>My background combines customer service, collections, billing, sales, technical support and office support—allowing me to handle customer concerns while keeping records, follow-ups and administrative details organized.</p></div>
+        <div class="about-grid">
+          <article class="panel">
+            <h3>Professional Summary</h3>
+            <p>Versatile and customer-focused professional with experience in credit collections, accounts receivable, customer service, billing, sales, technical support, office administration, HR support, finance, and virtual assistance. Skilled in inbound and outbound communication, email support, payment follow-up, account reconciliation, dispute resolution, record management, and administrative support. Known for strong communication, problem-solving, negotiation, and organizational skills.</p>
+          </article>
+          <article class="panel">
+            <h3>What I Bring</h3>
+            <ul class="checklist">
+              <li>Customer-focused communication across inbound, outbound and email channels</li>
+              <li>Credit collections, payment follow-up and account reconciliation support</li>
+              <li>Billing, sales and technical troubleshooting experience</li>
+              <li>Accurate documentation, record management and administrative support</li>
+              <li>Professional, organized and solution-oriented approach</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section><div class="wrap"><h2>Professional Experience</h2>
-<div class="card"><h3>Credit Collection Specialist / Accounts Receivable — OP360 (OfficePartners360)</h3><div class="date">Davao Region, Philippines | Jun 2025 – Present</div><ul><li>Manage inbound and outbound calls and email communications to follow up on outstanding balances and resolve account concerns.</li><li>Investigate billing discrepancies, reconcile account information, and maintain accurate documentation.</li><li>Negotiate payment arrangements and collaborate with internal teams to support timely resolution.</li></ul></div>
-<div class="card"><h3>Technical Specialist, Billing and Sales Specialist — Sutherland</h3><div class="date">Davao Region, Philippines | Mar 2022 – May 2025</div><ul><li>Provided technical troubleshooting and support while resolving billing, payment, and account-related concerns.</li><li>Identified customer needs and recommended suitable products and services to support sales opportunities.</li><li>Maintained accurate account documentation and delivered professional customer service in a fast-paced environment.</li></ul></div>
-<div class="card"><h3>Billing and Sales Specialist — IBEX</h3><div class="date">Davao Region, Philippines | Mar 2019 – Mar 2021</div><ul><li>Handled billing inquiries, payment concerns, and account issues while providing effective resolutions.</li><li>Identified sales opportunities and recommended relevant products and services based on customer needs.</li><li>Maintained accurate account records and delivered excellent customer service.</li></ul></div>
-<div class="card"><h3>Office Administrator / HR / Finance Officer — Altria Call Center</h3><div class="date">Davao Region, Philippines | Jan 2018 – Feb 2019</div><ul><li>Managed office administration, employee documentation, HR support, payroll coordination, and financial records.</li><li>Monitored expenses, maintained organized records, and supported smooth daily business operations.</li></ul></div>
-</div></section>
+    <section id="skills">
+      <div class="container">
+        <div class="section-head"><span class="kicker">Core Skills</span><h2>Skills that match customer and business support needs.</h2><p>Keywords are presented clearly so recruiters can quickly scan the areas where I can contribute.</p></div>
+        <div class="panel"><div class="skills">
+          <span class="skill">Credit Collections</span><span class="skill">Accounts Receivable</span><span class="skill">Account Reconciliation</span><span class="skill">Payment Negotiation</span><span class="skill">Customer Service</span><span class="skill">Billing Support</span><span class="skill">Technical Support</span><span class="skill">Troubleshooting</span><span class="skill">Sales Support</span><span class="skill">Inbound & Outbound Calls</span><span class="skill">Email Communication</span><span class="skill">Administrative Support</span><span class="skill">HR Support</span><span class="skill">Data Entry</span><span class="skill">Record Management</span><span class="skill">Microsoft Office</span><span class="skill">Microsoft Excel</span><span class="skill">Virtual Assistance</span><span class="skill">Lead Generation</span><span class="skill">Problem Solving</span>
+        </div></div>
+      </div>
+    </section>
 
-<section><div class="wrap"><h2>Education & Training</h2>
-<div class="card"><h3>Bachelor of Science in Psychology</h3><div class="date">Holy Cross of Davao College, Inc. | Undergraduate – Completed 3 Years | 2001 – 2005</div></div>
-<div class="card"><h3>Filipino Virtual Assistance — Freelancing Course / General Virtual Assistant</h3><p>Training in general virtual assistance, social media management and marketing, website creation, content marketing, SEO, lead generation, basic Facebook Ads, YouTube optimization, and email marketing.</p></div>
-</div></section>
+    <section id="experience">
+      <div class="container">
+        <div class="section-head"><span class="kicker">Experience</span><h2>Professional experience</h2><p>Customer-facing, financial account and business support experience across Davao Region, Philippines.</p></div>
+        <div class="experience">
+          <article class="job"><div class="job-top"><div><h3>Credit Collection Specialist / Accounts Receivable</h3><div class="company">OP360 (OfficePartners360) • Davao Region, Philippines</div></div><div class="date">Jun 2025 – Present</div></div><ul><li>Manage inbound and outbound calls and email communications to follow up on outstanding balances and resolve account concerns.</li><li>Investigate billing discrepancies, reconcile account information, and maintain accurate documentation.</li><li>Negotiate payment arrangements and collaborate with internal teams to support timely resolution.</li></ul></article>
+          <article class="job"><div class="job-top"><div><h3>Technical Specialist / Billing and Sales Specialist</h3><div class="company">Sutherland • Davao Region, Philippines</div></div><div class="date">Mar 2022 – May 2025</div></div><ul><li>Provided technical troubleshooting and support while resolving billing, payment, and account-related concerns.</li><li>Identified customer needs and recommended suitable products and services to support sales opportunities.</li><li>Maintained accurate account documentation and delivered professional customer service in a fast-paced environment.</li></ul></article>
+          <article class="job"><div class="job-top"><div><h3>Billing and Sales Specialist</h3><div class="company">IBEX • Davao Region, Philippines</div></div><div class="date">Mar 2019 – Mar 2021</div></div><ul><li>Handled billing inquiries, payment concerns, and account issues while providing effective resolutions.</li><li>Identified sales opportunities and recommended relevant products and services based on customer needs.</li><li>Maintained accurate account records and delivered excellent customer service.</li></ul></article>
+          <article class="job"><div class="job-top"><div><h3>Office Administrator / HR / Finance Officer</h3><div class="company">Altria Call Center • Davao Region, Philippines</div></div><div class="date">Jan 2018 – Feb 2019</div></div><ul><li>Managed office administration, employee documentation, HR support, payroll coordination, and financial records.</li><li>Monitored expenses, maintained organized records, and supported smooth daily business operations.</li></ul></article>
+        </div>
+      </div>
+    </section>
 
-<section id="contact" class="contact"><div class="wrap"><h2>Let's Connect</h2>
-<p>I'm open to opportunities in customer service, credit collections, billing, sales support, technical support, administration, and virtual assistance.</p>
-<p><strong>Email:</strong> <a href="mailto:abadiaalileh@gmail.com">abadiaalileh@gmail.com</a><br>
-<strong>Phone:</strong> 0968 489 4804<br>
-<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aalileh" target="_blank">linkedin.com/in/aalileh</a><br>
-<strong>Location:</strong> Davao Region, Philippines</p></div></section>
-<footer>© 2026 Alileh Abadia. Professional Portfolio.</footer>
-</body></html>
+    <section id="education">
+      <div class="container">
+        <div class="section-head"><span class="kicker">Education & Training</span><h2>Education and professional development</h2></div>
+        <div class="two-col">
+          <article class="mini-card"><h3>Bachelor of Science in Psychology</h3><p><strong>Holy Cross of Davao College, Inc.</strong><br>Undergraduate – Completed 3 Years<br>2001 – 2005</p></article>
+          <article class="mini-card"><h3>Filipino Virtual Assistance</h3><p><strong>Freelancing Course – General Virtual Assistant</strong><br>Training in general virtual assistance, social media management and marketing, website creation, content marketing, SEO, lead generation, basic Facebook Ads, YouTube optimization, and email marketing.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="kicker">Contact</span>
+          <div class="section-head" style="margin-bottom:0"><h2>Let's connect about the next opportunity.</h2><p>Open to customer service, credit collections, billing, sales support, technical support, administrative support and virtual assistance opportunities.</p></div>
+          <div class="actions"><a class="btn btn-teal" href="mailto:abadiaalileh@gmail.com">Email Me</a><a class="btn" style="border:1px solid var(--line);background:#fff;color:var(--navy)" href="Alileh_Abadia_ATS_Ready_Resume.pdf" download>Download Resume</a></div>
+        </div>
+        <div class="panel">
+          <div class="contact-list">
+            <div class="contact-item"><div><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:abadiaalileh@gmail.com">abadiaalileh@gmail.com</a></div></div></div>
+            <div class="contact-item"><div><div class="contact-label">Phone</div><div class="contact-value"><a href="tel:+639684894804">0968 489 4804</a></div></div></div>
+            <div class="contact-item"><div><div class="contact-label">LinkedIn</div><div class="contact-value"><a href="https://www.linkedin.com/in/aalileh" target="_blank" rel="noopener">linkedin.com/in/aalileh</a></div></div></div>
+            <div class="contact-item"><div><div class="contact-label">Location</div><div class="contact-value">Davao Region, Philippines</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">© 2026 Alileh Abadia • Professional Portfolio • Davao Region, Philippines</div></footer>
+</body>
+</html>
